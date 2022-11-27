@@ -272,9 +272,8 @@ audio{
 
 .snowflake p {
   position: absolute;
-  top: 187px;
   display: none;
-  font-size: smaller;
+  font-size: 20px;
   text-align: center;
   color: white;
   overflow: hidden;
