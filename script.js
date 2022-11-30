@@ -80,7 +80,7 @@ function initQuestion() {
     let initialHeart = document.querySelector(`.snowflake1 > img`);
     let videoFilter = document.querySelector(`.myVideo`);
     initialHeart.classList.add(`initial`)
-    videoFilter.style.filter = `blur(4rem)`;
+    videoFilter.style.filter = `blur(6rem)`;
     fil.forEach((el) => {
       el.style.filter = `blur(4rem)`;
     });
