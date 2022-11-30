@@ -75,7 +75,7 @@ function initQuestion() {
   if (i === arr.length) {
     document.querySelector(".section").style.display = "none";
     document.getElementById("background").style.filter = "none";
-    // document.querySelector("#music").play();
+    document.querySelector("#music").play();
     let fil = document.querySelectorAll(`.snowflake`);
     let initialHeart = document.querySelector(`.snowflake1 > img`);
     let videoFilter = document.querySelector(`.myVideo`);
