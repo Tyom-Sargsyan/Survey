@@ -226,7 +226,6 @@ audio{
 #new p {
   position: absolute;
   z-index: 2;
-  /* animation: smooth 5s forwards; */
   display: flex;
   flex-wrap: wrap;
   font-size: large;
@@ -248,7 +247,6 @@ audio{
   font-size: 2.5em;
   font-family: Arial;
   text-shadow: 0 0 1px #000;
-  /* filter: blur(4rem); */
   transition-duration: 2s;
   transition-timing-function: linear;
   cursor: pointer;
