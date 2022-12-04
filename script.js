@@ -113,7 +113,15 @@ hearts.forEach((snowFlake) => {
     if (!snowFlake.classList.contains("dontMove")) {
       snowFlake.setAttribute("leftPos", snowFlake.offsetLeft);
     }
-    snowFlake.classList.toggle("dontMove");
+    // console.log('click');
+   if (snowFlake.classList.contains(`dontMove`)) {
+      console.log(`if`);
+      snowFlake.classList.remove("dontMove");
+    } else {
+      console.log(`else`);
+      hearts.forEach(e => e.classList.remove('dontMove'))
+      snowFlake.classList.add("dontMove");
+    }
   });
 });
 
